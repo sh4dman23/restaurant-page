@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Dummy Restaurant Homepage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sh4dman23/restaurant-page.git"
+  },
+  "author": "Shadman Shahab <sh4dman0001@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sh4dman23/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/sh4dman23/restaurant-page#readme"
+}
