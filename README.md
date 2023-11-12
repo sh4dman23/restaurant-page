@@ -20,6 +20,7 @@ npm run start
 # Alternatively, run this to recreate the distribution files
 npm run build
 ```
+Additionally, you can change the menu items in [common.js](./src/common.js).
 
 ## License
 This project is licensed under MIT License. See [LICENSE](./LICENSE) for more information.
