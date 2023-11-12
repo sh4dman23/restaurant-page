@@ -20,6 +20,8 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/assets/template.html',
+            inject: 'head',
+            scriptLoading: 'blocking',
         }),
     ],
     output: {
