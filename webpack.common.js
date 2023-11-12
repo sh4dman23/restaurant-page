@@ -2,17 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
     entry: {
         main: './src/main.js'
-    },
-    devtool: 'inline-source-map',
-    devServer: {
-        static: './dist',
-        hot: true,
-        client: {
-            overlay: false,
-        },
     },
     module: {
         rules: [
@@ -32,7 +23,7 @@ module.exports = {
         }),
     ],
     output: {
-        filename: '[name].bundle.js',
+        filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
         clean: false,
     },
