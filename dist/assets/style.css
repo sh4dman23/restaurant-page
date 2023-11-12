@@ -108,7 +108,24 @@ li.nav-item:hover {
 }
 
 li.nav-item.active {
-    transform: scale(110%);
+    font-weight: 600;
+}
+
+li.nav-item.active:not(:hover) {
+    transform: scale(105%) translateY(-0.5px);
+}
+
+li.nav-item::after {
+    content: '';
+    position: relative;
+    top: 1px;
+    display: block;
+}
+
+li.nav-item.active::after {
+    height: 0;
+    width: 100%;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.9);
 }
 
 .discover-button {

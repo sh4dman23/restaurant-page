@@ -22,5 +22,8 @@ document.body.addEventListener('click', event => {
         } else if (target.id === 'contacts') {
             loadContacts();
         }
+
+        document.querySelectorAll('.nav-item').forEach(element => element.classList.remove('active'));
+        target.classList.add('active');
     }
 });
