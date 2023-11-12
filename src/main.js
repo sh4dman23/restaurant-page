@@ -1,7 +1,6 @@
 import loadHome from './homeLoader.js';
 import loadMenu from './menuLoader.js';
 import loadContacts from './contactLoader.js';
-import './assets/style.css';
 
 function clearMain() {
     const main = document.querySelector('main');

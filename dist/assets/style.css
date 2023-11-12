@@ -71,7 +71,7 @@ ul.nav-list a {
     padding: 2rem 0 1rem;
 }
 
-.faded-small, .discover-button {
+.faded-small {
     margin-left: 0.5rem;
 }
 
@@ -91,7 +91,7 @@ button {
     cursor: pointer;
 }
 
-button, a.icon > svg {
+button, a.icon > svg, li.nav-item {
     transition: 100ms all ease-in-out;
 }
 
@@ -101,6 +101,14 @@ button:not(:disabled):hover, a.icon > svg:hover {
 
 button:not(:disabled):active, a.icon > svg:active {
     transform: scale(99%);
+}
+
+li.nav-item:hover {
+    transform: scale(110%);
+}
+
+li.nav-item.active {
+    transform: scale(110%);
 }
 
 .discover-button {
