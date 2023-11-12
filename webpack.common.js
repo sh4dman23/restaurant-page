@@ -24,9 +24,14 @@ module.exports = {
             scriptLoading: 'blocking',
         }),
     ],
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        },
+    },
     output: {
-        filename: 'main.js',
+        filename: '[name].[hash].js',
         path: path.resolve(__dirname, 'dist'),
-        clean: false,
+        clean: true,
     },
 };
