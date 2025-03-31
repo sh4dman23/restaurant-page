@@ -26,7 +26,7 @@ Additionally, you can change the menu items in [common.js](./src/common.js).
 This project is licensed under MIT License. See [LICENSE](./LICENSE) for more information.
 
 ## Acknowledgements
-- [The Odin Project](https://www.theodinproject.com/)
+- This project was done as a part of [The Odin Project](https://www.theodinproject.com)
 - Image assets used:
     - Home Page Photo by [Tim Toomey](https://unsplash.com/@covertnine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/sliced-bread-on-white-ceramic-plate-STqHLqMne3k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
     - Menu Page Photo by [Mgg Vitchakorn](https://unsplash.com/@mggbox?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/roasted-meat-served-on-white-ceramic-plates-DDn9I5V1ubE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
